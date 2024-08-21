@@ -94,6 +94,12 @@ heading {
   font-size: 22px;
 }
 
+header img {
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+        }
+
 .logo {
   width: 40px;
   height: 40px;
