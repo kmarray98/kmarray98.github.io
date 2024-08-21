@@ -93,18 +93,25 @@ heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
 }
-
 header {
-text-align: center;
-padding: 20px;
-background-color: #f5f5f5;
+            display: flex;
+            align-items: center; /* Aligns items vertically in the center */
+            padding: 10px 20px; /* Adds some padding around the header */
+            background-color: #f5f5f5; /* Optional background color */
         }
 
+/* Styles for the image */
 header img {
-            width: 100%;
-            max-width: 1200px;
-            height: auto;
-        }
+            height: 50px; /* Adjust this value to match the text height */
+            width: auto; /* Maintain the aspect ratio of the image */
+            margin-right: 20px; /* Adds space between the image and text */
+}
+
+/* Styles for the header text */
+header h1 {
+        margin: 0; /* Removes default margin */
+        font-size: 24px; /* Adjust the font size as needed */
+}
 
 .logo {
   width: 40px;
