@@ -54,6 +54,32 @@ h2 {
   margin-top: 0;
 }
 
+.paper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.paper-title a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #007acc;
+}
+
+.abstract {
+  display: none;
+  margin-top: 5px;
+  font-size: 0.95em;
+  color: #444;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-left: 3px solid #007acc;
+}
+
+/* Show abstract on hover */
+.paper:hover .abstract {
+  display: block;
+}
+
 /* Mobile styles */
 @media (max-width: 768px) {
   .intro-section {
