@@ -40,7 +40,7 @@ h1 {
 
 .profile-img {
   width: 40%;
-  max-width: 80px;
+  max-width: 10px;
   height: auto;
   border-radius: 8px;
   flex-shrink: 0;
