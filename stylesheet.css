@@ -39,8 +39,8 @@ h1 {
 }
 
 .profile-img {
-  max-width: 120px;
-  width: 100%;
+  max-width: 200px;
+  width: 40%;
   height: auto;
   border-radius: 8px;
   flex-shrink: 0;
@@ -63,7 +63,7 @@ h2 {
   }
 
 .profile-img {
-  max-width: 120px;
+  max-width: 200px;
   width: 100%;
   height: auto;
   border-radius: 8px;
