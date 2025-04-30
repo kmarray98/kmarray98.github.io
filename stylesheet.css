@@ -39,11 +39,9 @@ h1 {
 }
 
 .profile-img {
-  width: 40%;
-  max-width: 10px;
-  height: auto;
-  border-radius: 8px;
-  flex-shrink: 0;
+  width: 80px !important;
+  max-width: 80px !important;
+  height: auto !important;
 }
 
 .about-me {
@@ -62,11 +60,11 @@ h2 {
     text-align: left;
   }
 
-  .profile-img {
-    width: 100%;
-    max-width: 200px;
-    margin-bottom: 20px;
-  }
+.profile-img {
+  width: 80px !important;
+  max-width: 80px !important;
+  height: auto !important;
+}
 
   .about-me {
     width: 100%;
