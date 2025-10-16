@@ -57,11 +57,11 @@
     Job market paper (corresponding <a href="https://github.com/kmarray98/spillest">spillest R package</a>).
   </div>
   <div class="abstract">
-   Empirical researchers often estimate spillover effects by fitting linear or non-linear regression models to sampled network data. 
-    We show that common sampling schemes induce dependence between spillovers on observed and unobserved links that biases estimates, often upwards. 
-    We then construct unbiased estimators by rescaling the regression estimators using aggregate statistics of the degree distribution. 
-    Our results can be used to construct estimates under different assumptions on the relationship between observed and unobserved links, bound true effect sizes, and determine robustness to missing links. 
-    As an application, we estimate the propagation of climate shocks between US public firms from self-reported supply links using a new dataset on the county-level incidence of large climate shocks.
+We develop a new bias-corrected estimator for spillover effects when a researcher observes only sampled -- rather than complete -- links between individuals.
+    Examples include when links are collected through surveys, when links are inferred from group membership, or when only important interactions are disclosed to preserve privacy.
+    Standard estimators are often biased due to dependence between spillovers on sampled links and spillovers on unobserved links induced by the sampling process.
+    Our correction rescales the estimated spillover effects based on this dependence, which can be done using only average numbers of missing links. 
+    We apply the method to estimate the propagation of climate shocks between U.S. public firms through supply links, addressing the upwards bias induced by self-reporting of only large customers.
   </div>
 </div>
 
